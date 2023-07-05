@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#4B93BF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 40vw;
+    font-size: 22px;
+
+}
+
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 54vh;
+    background-color: #E4EEF1;
+    ;
+}
+
+.sec1 div{
+    width: 40vw;
+ color: #0F468C; 
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    background-color: #4B93BF;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 42vh;
+}
+
+.sec2 h2{
+    color: #E4EEF1;
+    width: 40vw;
+    word-spacing: 8px;
+}
+
+
+.sec3{
+    background-color:#E4EEF1;
+    display: flex;  
+    justify-content: center;
+}
+
+.urso{
+}
+
+
+footer{
+    background-color: #4B93BF;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    width: 50vw;
+
+}
+
+.redesocial{
+    display: flex;
+ align-items: center;
+    width: 5vw;
+}
+
+
+
