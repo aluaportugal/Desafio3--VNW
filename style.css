@@ -58,13 +58,25 @@ header ul{
 
 .sec3{
     background-color:#E4EEF1;
-    display: flex;  
-    justify-content: center;
 }
 
-.urso{
+.sec3 figure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
+.sec3 img{
+    width: 22vw;
+    height: 55vh;
+}
+
+.urso3{
+    position: relative;
+    top: 8px;
+    left: 12px;
+}
 
 footer{
     background-color: #4B93BF;
@@ -77,13 +89,12 @@ footer{
 .text{
     text-align: center;
     width: 50vw;
-
 }
 
-.redesocial{
+footer nav{
     display: flex;
- align-items: center;
-    width: 5vw;
+    align-items: center;
+    margin: 5px;
 }
 
 
